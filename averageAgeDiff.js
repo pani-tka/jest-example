@@ -15,9 +15,6 @@ function averageAgeDiff(data) {
         }
     });
 
-    console.log('#result', result);
-    console.log('#count', count);
-
     return result / count;
 }
 
