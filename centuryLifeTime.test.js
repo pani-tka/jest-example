@@ -43,7 +43,6 @@ const input = [
 ];
 
 test('From book', () => {
-    console.log('centuryLifeTime', centuryLifeTime);
     const actualResult = centuryLifeTime (input);
     const expectedResult = {
         16: 43.5, 
